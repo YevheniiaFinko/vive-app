@@ -437,7 +437,7 @@ function WelcomeScreen({ onStart, lang, onLangToggle }) {
       {/* Hero */}
       <div style={{ position: "relative", zIndex: 1, flex: 1, display: "flex", flexDirection: "column", justifyContent: "center", padding: "0 28px" }}>
         <h1 style={{ fontSize: 38, fontWeight: 900, lineHeight: 1.08, margin: "0 0 3px", letterSpacing: "-1.5px", color: "#1A2433" }}>
-          {uk ? "AI-підруга" : "AI friend"}
+          {uk ? "AI-подруга" : "AI friend"}
         </h1>
         <h1 style={{ fontSize: 38, fontWeight: 900, lineHeight: 1.08, margin: "0 0 16px", letterSpacing: "-1.5px", background: "linear-gradient(135deg, #4A9EDF, #4ECBA8)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
           {uk ? "у світі біохакінгу" : "in biohacking"}
